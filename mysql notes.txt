@@ -1,0 +1,27 @@
+create database databasename;
+create table mydatabase.employee(empno integer,empname varchar(20));
+
+select * from mydatabase.employee;
+
+insert into mydatabase.employee values(1,'Ravi');
+insert into my database.employee values(2,'siva');
+select * from mydatabase.employee where empno=1;
+commit;
+
+alter table mydatabase.employee add gender char(1);
+update mydatabase.employee set gender='m' where empname=Ravi ;
+set SQL_SAFE_UPDATES = 0;
+select empname from mydatabase.employee;
+deletr from mydatabase.employee where empno = 1;s
+alter table mydatabase.employee add salary integer(10);
+update mydatabase.employee set salary=100000 where empno=2;
+insert into mydatabase.employee values(1,'raju','m',90000);
+insert into mydatabase.employee values(3,'f',120000);
+select * from mydatabase.employee where salary>100000;
+
+select sum(salary) from mydatabase.employee;
+
+
+
+
+
